@@ -19,15 +19,15 @@ const Register = () => {
           password: Password,
         });
         // ------------ Send a confirmation email to the user
-        const confirmationEmail = await supabase.auth.sendConfirmationEmail(
-          Email
-        );
+        // const confirmationEmail = await supabase.auth.sendConfirmationEmail(
+        //   Email
+        // );
 
-        if (confirmationEmail.error) {
-          // Handle the error
-          Alert.prompt(confirmationEmail.error)
-          return;
-        }
+        // if (confirmationEmail.error) {
+        //   // Handle the error
+        //   Alert.prompt(confirmationEmail.error)
+        //   return;
+        // }
 
         //--------------------- Display a message to the user letting them know that they need to confirm their account
 

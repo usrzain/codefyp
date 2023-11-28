@@ -74,7 +74,9 @@ const next = ()=>{
                         <Button title='Skip'  style={styles.navButton}  onPress={()=>{
                           router.push('home')
                         }}/>
-                        <Button title='Next' style={styles.navButton} onPress={next}/>
+                        <Button title='Next' style={styles.navButton} onPress={()=>{
+                          router.push('register')
+                        }}/>
                       </View>
                     </View>
 

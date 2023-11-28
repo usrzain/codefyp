@@ -11,7 +11,7 @@ const _layout = () => {
     // Empty Stack set the Name of the Fuile on the Top of the Screen
     <Stack>  
             <Stack.Screen name='index' options={{
-                title:'HOME page '
+                title:' '
             }} />
 
             <Stack.Screen  name='register'  options={{

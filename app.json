@@ -5,10 +5,10 @@
     "scheme": "expo-user-management",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/add-user.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/add-user.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,15 +20,24 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/add-user.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "he.f_j"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/add-user.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "aefb127d-d1d4-4b47-aa05-5e4a10a33fac"
+      }
+    }
   }
 }
